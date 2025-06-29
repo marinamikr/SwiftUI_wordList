@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 
+
 struct WordListView: View {
     @Environment(\.modelContext) var context
     @Query var words: [Word]
@@ -17,6 +18,7 @@ struct WordListView: View {
             if words.isEmpty {
                 Text("登録されている単語がありません")
             }
+            
             ForEach(words) { word in
                 HStack {
                     Text(word.english)
@@ -38,7 +40,8 @@ struct WordListView: View {
     }
 }
 
+
 #Preview {
     WordListView()
-        .modelContext(wordContainer)
+        .modelContainer(wordContainer)
 }

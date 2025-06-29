@@ -8,23 +8,27 @@
 import SwiftUI
 import SwiftData
 
+
 struct AddWordView: View {
     @Environment(\.dismiss) var dismiss
     @Environment(\.modelContext) var context
     @State var english = ""
     @State var japanese = ""
     @State var showAlert = false
-    
+
+
     var body: some View {
         VStack(spacing: 16) {
             Spacer()
+            
             TextField("英単語", text: $english)
                 .textFieldStyle(.roundedBorder)
             TextField("意味", text: $japanese)
                 .textFieldStyle(.roundedBorder)
             
             Button {
-            }label: {
+                save()
+            } label: {
                 Text("保存")
             }
             .font(.title)
@@ -33,12 +37,13 @@ struct AddWordView: View {
             .frame(maxWidth: .infinity)
             .background(Color.orange)
             .clipShape(.capsule)
+            
             Spacer()
         }
         .padding()
         .alert("両方の欄に入力してください", isPresented: $showAlert) {
-                  Button("OK", role: .cancel) { }
-              }
+            Button("OK", role: .cancel) { }
+        }
     }
     
     func save() {
@@ -51,6 +56,7 @@ struct AddWordView: View {
         dismiss()
     }
 }
+
 
 #Preview {
     AddWordView()

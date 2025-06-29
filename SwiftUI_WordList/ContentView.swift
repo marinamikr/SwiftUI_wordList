@@ -7,17 +7,19 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 32) {
-                Text("my単語帳")
+        NavigationStack{
+            VStack{
+                Text("My単語帳")
                     .font(.largeTitle)
                 
-                NavigationLink {
+                NavigationLink{
                     QuizView()
+                    
                 } label: {
-                    Text("QUIZ Start")
+                    Text("quiz start")
                         .font(.title)
                         .foregroundStyle(.white)
                         .padding(.vertical, 12)
@@ -25,7 +27,8 @@ struct ContentView: View {
                         .background(Color.orange)
                         .clipShape(.capsule)
                 }
-                NavigationLink {
+                
+                NavigationLink{
                     WordListView()
                 } label: {
                     Text("単語一覧")

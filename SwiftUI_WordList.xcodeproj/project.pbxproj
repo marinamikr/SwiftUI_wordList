@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CCEC0AE2E10293B0017494A /* SwiftUI_WordListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCEC0AD2E10293B0017494A /* SwiftUI_WordListApp.swift */; };
+		9C106AF02E1129290053F4C6 /* WordListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C106AEF2E1129290053F4C6 /* WordListApp.swift */; };
 		9CCEC0B02E10293B0017494A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCEC0AF2E10293B0017494A /* ContentView.swift */; };
 		9CCEC0B22E10293C0017494A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCEC0B12E10293C0017494A /* Assets.xcassets */; };
 		9CCEC0B52E10293C0017494A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CCEC0B42E10293C0017494A /* Preview Assets.xcassets */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C106AEF2E1129290053F4C6 /* WordListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListApp.swift; sourceTree = "<group>"; };
 		9CCEC0AA2E10293B0017494A /* SwiftUI_WordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_WordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CCEC0AD2E10293B0017494A /* SwiftUI_WordListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WordListApp.swift; sourceTree = "<group>"; };
 		9CCEC0AF2E10293B0017494A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CCEC0B12E10293C0017494A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CCEC0B42E10293C0017494A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,7 +61,6 @@
 		9CCEC0AC2E10293B0017494A /* SwiftUI_WordList */ = {
 			isa = PBXGroup;
 			children = (
-				9CCEC0AD2E10293B0017494A /* SwiftUI_WordListApp.swift */,
 				9CCEC0AF2E10293B0017494A /* ContentView.swift */,
 				9CCEC0BB2E1029840017494A /* WordPreviewContainer.swift */,
 				9CCEC0BD2E1029D90017494A /* Word.swift */,
@@ -70,6 +69,7 @@
 				9CCEC0C12E1037F70017494A /* QuizView.swift */,
 				9CCEC0C52E103B4E0017494A /* WordListView.swift */,
 				9CCEC0C72E103CDA0017494A /* AddWordView.swift */,
+				9C106AEF2E1129290053F4C6 /* WordListApp.swift */,
 			);
 			path = SwiftUI_WordList;
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 				9CCEC0B02E10293B0017494A /* ContentView.swift in Sources */,
 				9CCEC0BE2E1029D90017494A /* Word.swift in Sources */,
 				9CCEC0C22E1037F70017494A /* QuizView.swift in Sources */,
-				9CCEC0AE2E10293B0017494A /* SwiftUI_WordListApp.swift in Sources */,
 				9CCEC0C62E103B4E0017494A /* WordListView.swift in Sources */,
+				9C106AF02E1129290053F4C6 /* WordListApp.swift in Sources */,
 				9CCEC0C82E103CDA0017494A /* AddWordView.swift in Sources */,
 				9CCEC0BC2E1029840017494A /* WordPreviewContainer.swift in Sources */,
 			);

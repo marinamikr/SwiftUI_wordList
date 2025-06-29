@@ -1,13 +1,11 @@
 //
-//  SwiftUI_WordListApp.swift
+//  WordListApp.swift
 //  SwiftUI_WordList
 //
-//  Created by 原田摩利奈 on 2025/06/28.
+//  Created by 原田摩利奈 on 2025/06/29.
 //
-
 import SwiftUI
 import SwiftData
-
 
 @main
 struct WordListApp: App {

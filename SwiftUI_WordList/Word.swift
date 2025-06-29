@@ -6,7 +6,8 @@
 //
 import SwiftData
 
-class Word {
+@Model
+class Word{
     var english: String
     var japanese: String
     
@@ -15,4 +16,3 @@ class Word {
         self.japanese = japanese
     }
 }
-
